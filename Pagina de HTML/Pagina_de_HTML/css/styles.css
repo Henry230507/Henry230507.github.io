@@ -1,0 +1,104 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #3a5f0b;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    width: 80px;
+    margin-right: 15px;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Menú de navegación */
+nav {
+    background-color: #285007;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #3a5f0b;
+}
+
+/* Contenedor principal */
+.contenedor {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Galería */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.galeria img {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Videos */
+.videos video {
+    width: 100%;
+    max-width: 560px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Tabla de precios */
+.tabla-precios {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tabla-precios th, .tabla-precios td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.tabla-precios th {
+    background-color: #3a5f0b;
+    color: white;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #285007;
+    color: white;
+    margin-top: 20px;
+}
